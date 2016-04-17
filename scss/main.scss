@@ -1,0 +1,24 @@
+//
+// + Adapt
+// =============================================================================
+
+@mixin adapt($name, $variants) {
+  @each $variant in $variants {
+    @extend %#{merge($name flatten($variant), '-')};
+  }
+}
+
+//
+// + Loop
+// =============================================================================
+
+$adapt-loop: null !default;
+
+@mixin adapt-loop($amount) {
+  @content;
+
+  @for $i from 1 through $amount {
+    $adapt-loop: $i !global;
+    @content;
+  }
+}
