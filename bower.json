@@ -1,0 +1,25 @@
+{
+  "name": "taffy-adapt",
+  "homepage": "https://github.com/taffy-grid/adapt",
+  "authors": [
+    "Dustin Dowell <dustindowell22@gmail.com>"
+  ],
+  "description": "Sweet responsive extends.",
+  "main": "scss/main.scss",
+  "keywords": [
+    "taffy",
+    "adapt",
+    "extend",
+    "css",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "fizz-sass": "^2.0.0"
+  }
+}
