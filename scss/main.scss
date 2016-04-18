@@ -19,6 +19,7 @@ $adapt-loop: null !default;
 
   @for $i from 1 through $amount {
     $adapt-loop: $i !global;
+
     @content;
   }
 }
