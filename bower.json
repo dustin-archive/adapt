@@ -4,7 +4,7 @@
   "authors": [
     "Dustin Dowell <dustindowell22@gmail.com>"
   ],
-  "description": "Sweet responsive extends.",
+  "description": "Sweet responsive extends",
   "main": "scss/main.scss",
   "keywords": [
     "taffy",
