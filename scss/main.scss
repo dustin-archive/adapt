@@ -10,7 +10,7 @@ $adapt-loop: null !default;
 
 @mixin adapt($name, $variants) {
   @each $variant in $variants {
-    @extend %#{merge($name flatten($variant), '-')};
+    @extend %#{merge(flatten($name $variant), '-')};
   }
 }
 
