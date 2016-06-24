@@ -1,7 +1,7 @@
 Adapt
 ===
 
-> Sweet responsive extends.
+> Sweet responsive extends
 
 ## Why?
 + Content that is easily extendable across at-rules
@@ -16,6 +16,6 @@ $ bower install --save taffy-adapt
 ```
 
 ```scss
-@import '../bower_components/fizz-sass/scss/main';
-@import '../bower_components/taffy-adapt/scss/main';
+@import 'bower_components/fizz-sass/scss/main';
+@import 'bower_components/taffy-adapt/scss/main';
 ```
