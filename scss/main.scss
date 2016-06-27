@@ -1,8 +1,8 @@
 //
-// + Variables
+// + Hooks
 // =============================================================================
 
-$adapt-loop: null !default;
+$_adapt-loop: null !default;
 
 //
 // + Adapt
@@ -22,7 +22,7 @@ $adapt-loop: null !default;
   @content;
 
   @for $i from 1 through $amount {
-    $adapt-loop: $i !global;
+    $_adapt-loop: $i !global;
 
     @content;
   }
