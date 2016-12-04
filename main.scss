@@ -1,4 +1,11 @@
 //
+// # Dependencies
+// =============================================================================
+
+@import '../node_modules/taffy-util/main';
+
+
+//
 // # Hooks
 // =============================================================================
 
@@ -10,7 +17,7 @@ $_adapt-loop: null !default;
 
 @mixin adapt($name, $variants) {
   @each $variant in $variants {
-    @extend %#{merge(flatten($name $variant), '-')};
+    @extend %#{util-merge(util-flatten($name $variant), '-')};
   }
 }
 
